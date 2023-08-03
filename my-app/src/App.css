@@ -1,0 +1,38 @@
+.user-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .card-image {
+    flex: 0.5;
+  }
+  
+  .user-details {
+    flex: 1;
+  }
+  
+  .user-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .user-address {
+    color: #777;
+  }
+  
+  .user-actions {
+    display: flex;
+    margin-top: 1rem;
+  }
+  
+  .user-actions button {
+    margin-right: 10px;
+  }
+  
